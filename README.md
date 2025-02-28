@@ -1,5 +1,5 @@
 # tronlink-gasfree-sdk-js
-tronlink-gasfree-sdk-js is a toolkit developed by TronLink based on the GasFree API specification. It facilitates the integration of the non-gas TRC20 token transfer service for the web & browser extension platform. 
+tronlink-gasfree-sdk-js is a toolkit developed by TronLink based on the GasFree API specification. It facilitates the integration of the non-gas TRC20 token transfer service for the web & browser extension platform.
 
 This SDK is provided by TronLink, while the definition & maintenance of the APIs are managed by the official GasFree project. For more information, visit [https://gasfree.io](https://gasfree.io).
 
@@ -24,9 +24,9 @@ const tronGasFree = new TronGasFree({
 });
 ```
 
-generate gas free address: 
+generate gas free address:
 ```javascript
-import { TronGasFree } from 'tronlink-gasfree-sdk-js'
+import { TronGasFree } from '@tronlink/gasfree-sdk-js'
 
 try {
 	const userAddress = 'your tron wallet address'
@@ -93,7 +93,7 @@ const tronGasFree = new TronGasFree({
 ```
 #### generate GasFree address
 ```javascript
-import { TronGasFree } from 'tronlink-gasfree-sdk-js'
+import { TronGasFree } from '@tronlink/gasfree-sdk-js'
 
 try {
 	const userAddress = 'your tron wallet address'
@@ -141,7 +141,7 @@ try {
 #### normal GasFree signature
 ```typescript
 import TronWeb from 'tronweb';
-import { TronGasFree } from 'tronlink-gasfree-sdk-js';
+import { TronGasFree } from '@tronlink/gasfree-sdk-js';
 
 const PRIVATE_KEY = 'your private key';
 
@@ -169,7 +169,7 @@ try {
 
 #### ledger GasFree signature
 ```typescript
-import { TronGasFree } from 'tronlink-gasfree-sdk-js'
+import { TronGasFree } from '@tronlink/gasfree-sdk-js'
 import AppTrx from '@ledgerhq/hw-app-trx';
 import TransportWebHID from '@ledgerhq/hw-transport-webhid';
 
