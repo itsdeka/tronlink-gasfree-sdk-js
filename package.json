@@ -16,10 +16,6 @@
     "gasFree"
   ],
   "main": "dist/index.js",
-  "engines": {
-    "node": "18.19.0",
-    "pnpm": "7.32.0"
-  },
   "scripts": {
     "test": "jest --coverage",
     "build": "pnpm run clean && webpack --progress --color && tsc",
